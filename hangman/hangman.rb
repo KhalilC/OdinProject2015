@@ -1,4 +1,4 @@
-#Object oriented hangman
+# hangman
 
 def get_player_guess
   lower_case_letters = ('a'..'z')
@@ -42,9 +42,6 @@ def update_board(guess, letter_tracker, board)
   board
 end
 
-
-
-
 #word = retrieve_word("5desk.txt")
 #word_to_array = word.split("")
 #letter_tracker = {}
@@ -53,6 +50,7 @@ end
 #p letter_tracker
 #player enters a guess
 #check to see if word contains guess _ _ _
+## 
 system 'clear'
 word = "khalil"
 word_to_array = word.split("")
